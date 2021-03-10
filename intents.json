@@ -1,51 +1,109 @@
-{
-    "intents": [{
-            "tag": "greeting",
-            "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
-            "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
-            "context_set": ""
-        },
-        {
-            "tag": "goodbye",
-            "patterns": ["Bye", "See you later", "Goodbye"],
-            "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
-        },
-        {
-            "tag": "thanks",
-            "patterns": ["Thanks", "Thank you", "That's helpful"],
-            "responses": ["Happy to help!", "Any time!", "My pleasure"]
-        },
-        {
-            "tag": "hours",
-            "patterns": ["What hours are you open?", "What are your hours?", "When are you open?"],
-            "responses": ["We're open every day 9am-9pm", "Our hours are 9am-9pm every day"]
-        },
-        {
-            "tag": "mopeds",
-            "patterns": ["Which mopeds do you have?", "What kinds of mopeds are there?", "What do you rent?"],
-            "responses": ["We rent Yamaha, Piaggio and Vespa mopeds", "We have Piaggio, Vespa and Yamaha mopeds"]
-        },
-        {
-            "tag": "payments",
-            "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?"],
-            "responses": ["We accept VISA, Mastercard and AMEX", "We accept most major credit cards"]
-        },
-        {
-            "tag": "opentoday",
-            "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
-            "responses": ["We're open every day from 9am-9pm", "Our hours are 9am-9pm every day"]
-        },
-        {
-            "tag": "rental",
-            "patterns": ["Can we rent a moped?", "I'd like to rent a moped", "How does this work?"],
-            "responses": ["Are you looking to rent today or later this week?"],
-            "context_set": "rentalday"
-        },
-        {
-            "tag": "today",
-            "patterns": ["today"],
-            "responses": ["For rentals today please call 1-800-MYMOPED", "Same-day rentals please call 1-800-MYMOPED"],
-            "context_filter": "rentalday"
-        }
-    ]
-}
+{"intents":
+[
+            {
+             "tag":"greetings",
+             "patterns": ["hello","hey","hi","good day","greetings","whats's up?","how is it going"],
+             "responses":["hello","hey!","what can i do for you?"]
+            },
+            {
+             "tag":"goodbye",
+             "patterns": ["cya","see you later","goodbye","i am leaving","have a good day","bye","cao","see ya"],
+             "responses":["have a nice day","goodbye"]
+            },
+            {
+             "tag":"age",
+             "patterns": ["how old","how old is jack","hi","what is your age","how old are you","age?"],
+             "responses":["my owner jack is 21 years old!","hey!","21 years!"]
+            },
+            {
+             "tag":"name",
+             "patterns": ["what is your name","what should i call you","what's your name?","who are you?","can you tell me"],
+             "responses":["you can call be neural!","i am neural!","i am neural the assistant of jack!"]
+            },
+            {
+             "tag":"common cold symptoms",
+             "patterns": ["Runny or stuffy nose",
+             "Sore throat",
+             "Cough",
+             "Congestion",
+             "Slight body aches or a mild headache",
+             "Sneezing",
+             "Low-grade fever",
+             "Generally feeling unwell (malaise)"],
+             "responses":["It seems that you are suffering from common cold"]
+            },
+            {
+             "tag":"fever symptoms",
+             "patterns":["Sweating",
+             "Chills and shivering",
+             "Headache",
+             "Muscle aches",
+             "Loss of appetite",
+             "Irritability",
+             "Dehydration",
+             "General weakness"],
+             "responses":["It seems that you are suffering from fever"]
+            },
+            {
+             "tag":"Diabetes symptoms",
+             "patterns":["increased hunger",
+             "increased thirst",
+             "weight loss",
+             "frequent urination",
+             "blurry vision",
+             "extreme fatigue"],
+             "responses":["It seems that you are suffering from Diabetes"]
+            },
+            {
+             "tag":"Depression symptoms",
+             "patterns":["Hopeless outlookm",
+             "Lost interest",
+             "Increased fatigue",
+             "sleep problem",
+             "Anxiety",
+             "change in weight",
+             "Looking at death"],
+             "responses":["It seem that you are suffering from depression"]
+            },
+            {
+             "tag":"Asthama symptoms",
+             "patterns":["coughing",
+             "tightness in the chest",
+             "shortness of breath",
+             "difficulty talking",
+             "panic",
+             "fatigue"],
+             "responses":["It seem that you are suffering from Asthama"]
+            },
+            {
+             "tag":"common cold prevention",
+             "patterns":["What medicines can I buy to help with my symptoms?","tell me some  prevention method","What should I eat or drink?","How can I keep from getting a cold or the flu?"],
+             "responses":["medicines you can consume : Dextromethorphan,Decongestant,Diphenhydramine,Crocin Cold & Flu Max, prventions that you must follow :Wash your hands,Avoid touching your face,Clean frequently used surfaces,Use hand sanitizers,SUGGESTED FOODS ARE:Garlic,Vitamin C–containing fruits,Leafy greens,Broccoli,Oatmeal,Spices,Chiken Soup"]
+            },
+            {
+             "tag":"FEVER prevention",
+             "patterns":["What medicines can I buy to help with my symptoms?","tell me some  prevention method","What should I eat or drink?","How can I keep from getting a FEVER?"],
+             "responses":["medicines you can consume : acetaminophen ,ibuprofen,aspirin,Crocin Cold & Flu Max, prvention that you must follow :Wash your hands,Cover your mouth when you cough and your nose when you sneeze,Clean frequently used surfaces,Avoid sharing cups, glasses, and eating utensils with other people.,SUGGESTED FOODS ARE:Garlic,Vitamin C–containing fruits,Leafy greens,Broccoli,Oatmeal,Spices,Chiken Soup"]
+            },
+            {
+             "tag":"DIABETES prevention",
+             "patterns":["What medicines can I buy to help with my symptoms?","tell me some  prevention method","What should I eat or drink?","How can I keep from getting DIABETES ?"],
+             "responses":["medicines you can consume : Insulin ,Amylinomimetic drug,Dipeptidyl peptidase-4 (DPP-4) inhibitor, prvention that you must follow :Cut Sugar and Refined Carbs From Your Diet,Work Out Regularly,Drink Water as Your Primary Beverage,Lose Weight If You’re Overweight or Obese,Quit Smoking, Follow a Very-Low-Carb Diet,Watch Portion Sizes,SUGGESTED FOODS ARE:Leafy greens,Avocados,Eggs"]
+            },
+            {
+             "tag":"DEPRESSION prevention",
+             "patterns":["What medicines can I buy to help with my symptoms?","tell me some  prevention method","What should I eat or drink?","How can I keep from getting DEPRESSION?"],
+             "responses":["medicines you can consume :  brexpiprazole, quetiapine,olanzapine, prvention that you must follow :Exercise regularly,Cut back on social media time,Drink Water as Your Primary Beverage,Build strong relationships,Minimize your daily choices, Follow a Very-Low-Carb Diet,SUGGESTED FOODS ARE:Get Enough Vitamin D,Include Omega-3 Fatty Acids,Beans and legumes"]
+            },
+            {
+             "tag":"ASTHMA prevention",
+             "patterns":["What medicines can I buy to help with my symptoms?","tell me some  prevention method","What should I eat or drink?","How can I keep from getting ASTHMA?"],
+             "responses":["medicines you can consume : epinephrine,anticholinergic,ProAir HFA, prvention that you must follow : Identify Asthma Triggers, Stay Away From Allergens,Avoid Smoke of Any Type,SUGGESTED FOODS ARE:CARROTS,JUICE,EGGS,BROCOLLI,cantaloupe,MILK"]
+            },
+            {
+             "tag":"hours",
+             "patterns": ["when are you guys open","what are your hours","hours of operation"],
+             "responses":["24/7"]
+            }
+]}
+        
