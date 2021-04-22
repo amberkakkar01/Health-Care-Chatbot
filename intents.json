@@ -2,23 +2,23 @@
 [
             {
              "tag":"greetings",
-             "patterns": ["hello","hey","hi","good day","greetings","whats's up?","how is it going"],
+             "patterns": ["hello","hey","hi","good day","greetings","what's up?","how is it going"],
              "responses":["hello","hey!","what can i do for you?"]
             },
             {
              "tag":"goodbye",
-             "patterns": ["cya","see you later","goodbye","i am leaving","have a good day","bye","cao","see ya"],
+             "patterns": ["cya","see you later","goodbye","have a good day","bye","cao","see ya"],
              "responses":["have a nice day","goodbye"]
             },
             {
              "tag":"age",
-             "patterns": ["how old","how old is jack","hi","what is your age","how old are you","age?"],
-             "responses":["my owner jack is 21 years old!","hey!","21 years!"]
+             "patterns": ["how old","how old are you?","what is your age","how old are you","age?"],
+             "responses":["I get reborn after every compilation","hey!","my owners are averagely 20 years!"]
             },
             {
              "tag":"name",
-             "patterns": ["what is your name","what should i call you","what's your name?","who are you?","can you tell me"],
-             "responses":["you can call be neural!","i am neural!","i am neural the assistant of jack!"]
+             "patterns": ["what is your name","what should i call you","what's your name?","who are you?","can you tell me your name"],
+             "responses":["you can call me Medbot!","i am Medbot!","i am Medbot your medical assistant"]
             },
             {
              "tag":"common cold symptoms",
@@ -56,7 +56,7 @@
             },
             {
              "tag":"Depression symptoms",
-             "patterns":["Hopeless outlookm",
+             "patterns":["Hopeless outlook",
              "Lost interest",
              "Increased fatigue",
              "sleep problem",
@@ -66,44 +66,44 @@
              "responses":["It seem that you are suffering from depression"]
             },
             {
-             "tag":"Asthama symptoms",
+             "tag":"Asthma symptoms",
              "patterns":["coughing",
              "tightness in the chest",
              "shortness of breath",
              "difficulty talking",
              "panic",
              "fatigue"],
-             "responses":["It seem that you are suffering from Asthama"]
+             "responses":["It seem that you are suffering from Asthma"]
             },
             {
              "tag":"common cold prevention",
-             "patterns":["What medicines can I buy to help with my symptoms?","tell me some  prevention method","What should I eat or drink?","How can I keep from getting a cold or the flu?"],
-             "responses":["medicines you can consume : Dextromethorphan,Decongestant,Diphenhydramine,Crocin Cold & Flu Max, prventions that you must follow :Wash your hands,Avoid touching your face,Clean frequently used surfaces,Use hand sanitizers,SUGGESTED FOODS ARE:Garlic,Vitamin C–containing fruits,Leafy greens,Broccoli,Oatmeal,Spices,Chiken Soup"]
+             "patterns":["What medicines can I buy to help me with my common cold?","tell me some prevention method from common cold","What should I eat or drink if i am suffering from common cold?","How can I keep from getting a cold or the flu?"],
+             "responses":["medicines you can consume : Dextromethorphan,Decongestant,Diphenhydramine,Crocin Cold & Flu Max, preventions that you must follow :Wash your hands,Avoid touching your face,Clean frequently used surfaces,Use hand sanitizers,SUGGESTED FOODS ARE:Garlic,Vitamin C–containing fruits,Leafy greens,Broccoli,Oatmeal,Spices,Chicken Soup"]
             },
             {
-             "tag":"FEVER prevention",
-             "patterns":["What medicines can I buy to help with my symptoms?","tell me some  prevention method","What should I eat or drink?","How can I keep from getting a FEVER?"],
-             "responses":["medicines you can consume : acetaminophen ,ibuprofen,aspirin,Crocin Cold & Flu Max, prvention that you must follow :Wash your hands,Cover your mouth when you cough and your nose when you sneeze,Clean frequently used surfaces,Avoid sharing cups, glasses, and eating utensils with other people.,SUGGESTED FOODS ARE:Garlic,Vitamin C–containing fruits,Leafy greens,Broccoli,Oatmeal,Spices,Chiken Soup"]
+             "tag":"fever prevention",
+             "patterns":["What medicines can I buy to help me with my fever?","tell me some prevention method from fever","What should I eat or drink if i am suffering from fever?","How can I keep from getting a fever?"],
+             "responses":["medicines you can consume : acetaminophen ,ibuprofen,aspirin,Crocin Cold & Flu Max, prevention that you must follow :Wash your hands,Cover your mouth when you cough and your nose when you sneeze,Clean frequently used surfaces,Avoid sharing cups, glasses, and eating utensils with other people.,SUGGESTED FOODS ARE:Garlic,Vitamin C–containing fruits,Leafy greens,Broccoli,Oatmeal,Spices,Chicken Soup"]
             },
             {
-             "tag":"DIABETES prevention",
-             "patterns":["What medicines can I buy to help with my symptoms?","tell me some  prevention method","What should I eat or drink?","How can I keep from getting DIABETES ?"],
-             "responses":["medicines you can consume : Insulin ,Amylinomimetic drug,Dipeptidyl peptidase-4 (DPP-4) inhibitor, prvention that you must follow :Cut Sugar and Refined Carbs From Your Diet,Work Out Regularly,Drink Water as Your Primary Beverage,Lose Weight If You’re Overweight or Obese,Quit Smoking, Follow a Very-Low-Carb Diet,Watch Portion Sizes,SUGGESTED FOODS ARE:Leafy greens,Avocados,Eggs"]
+             "tag":"diabetes prevention",
+             "patterns":["What medicines can I buy to help me with my diabetes?","tell me some prevention method from diabetes","What should I eat or drink if i am suffering from diabetes?","How can I keep from getting diabetes?"],
+             "responses":["medicines you can consume : Insulin ,Amylinomimetic drug,Dipeptidyl peptidase-4 (DPP-4) inhibitor, prevention that you must follow :Cut Sugar and Refined Carbs From Your Diet,Work Out Regularly,Drink Water as Your Primary Beverage,Lose Weight If You’re Overweight or Obese,Quit Smoking, Follow a Very-Low-Carb Diet,Watch Portion Sizes,SUGGESTED FOODS ARE:Leafy greens,Avocados,Eggs"]
             },
             {
-             "tag":"DEPRESSION prevention",
-             "patterns":["What medicines can I buy to help with my symptoms?","tell me some  prevention method","What should I eat or drink?","How can I keep from getting DEPRESSION?"],
-             "responses":["medicines you can consume :  brexpiprazole, quetiapine,olanzapine, prvention that you must follow :Exercise regularly,Cut back on social media time,Drink Water as Your Primary Beverage,Build strong relationships,Minimize your daily choices, Follow a Very-Low-Carb Diet,SUGGESTED FOODS ARE:Get Enough Vitamin D,Include Omega-3 Fatty Acids,Beans and legumes"]
+             "tag":"depression prevention",
+             "patterns":["What medicines can I buy to help me with my depression?","tell me some prevention method from depression","What should I eat or drink if i am suffering from depression?","How can I keep from getting depression?"],
+             "responses":["medicines you can consume :  brexpiprazole, quetiapine,olanzapine, prevention that you must follow :Exercise regularly,Cut back on social media time,Drink Water as Your Primary Beverage,Build strong relationships,Minimize your daily choices, Follow a Very-Low-Carb Diet,SUGGESTED FOODS ARE:Get Enough Vitamin D,Include Omega-3 Fatty Acids,Beans and legumes"]
             },
             {
-             "tag":"ASTHMA prevention",
-             "patterns":["What medicines can I buy to help with my symptoms?","tell me some  prevention method","What should I eat or drink?","How can I keep from getting ASTHMA?"],
-             "responses":["medicines you can consume : epinephrine,anticholinergic,ProAir HFA, prvention that you must follow : Identify Asthma Triggers, Stay Away From Allergens,Avoid Smoke of Any Type,SUGGESTED FOODS ARE:CARROTS,JUICE,EGGS,BROCOLLI,cantaloupe,MILK"]
+             "tag":"asthma prevention",
+             "patterns":["What medicines can I buy to help me with my asthma?","tell me some prevention method from asthma","What should I eat or drink if i am suffering from asthma?","How can I keep from getting asthma?"],
+             "responses":["medicines you can consume : epinephrine,anticholinergic,Proair HFA, prevention that you must follow : Identify Asthma Triggers, Stay Away From Allergens,Avoid Smoke of Any Type,SUGGESTED FOODS ARE:carrots,juice,eggs,broccoli,cantaloupe,milk"]
             },
             {
-             "tag":"hours",
-             "patterns": ["when are you guys open","what are your hours","hours of operation"],
-             "responses":["24/7"]
+             "tag":"Consultation",
+             "patterns": ["who should i contact for consultation?","is there any doctor available?","can you give me some suggestions for doctor consultations?","can you set up a meeting with a doctor for consultation?","is there any doctor available for consultation"],
+             "responses":["You can contact various doctors here for any kind of consultation: 1. https://www.1mg.com/online-doctor-consultation, 2. https://www.tatahealth.com/online-doctor-consultation/general-physician, 3. https://www.doconline.com/, or you can pay a visit to your local area doctor or family doctor."]
             }
 ]}
         
