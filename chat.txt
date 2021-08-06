@@ -1,0 +1,41 @@
+MedBot chat started: July 11, 2021 at 12:46 AM withUser
+
+MedBot : Hi! i am Medbot how can i help you?
+You : hi
+MedBot : hey!
+You : who are you?
+MedBot : Hola, you can call me medbot,your medical care assistant
+You : what you do?
+MedBot : I can help you to get some assistance about your current health status, please tell me some of your symptoms
+You : jkhkjh
+MedBot : Sorry,i don't get it
+You : 
+MedBot : Sorry,i don't get it
+You : jhoi
+MedBot : I missed what you said
+You : lklk
+MedBot : I didn't get that
+You : a
+MedBot : I missed what you said
+You : i got blackheads
+MedBot : Medicines you can consume : Topical Retinoids, Topical Antibiotics, Azelaic Acid, Antibiotic Tablets, in women, the combined oral contraceptive pill, isotretinoin tablets 
+ Preventions that you must follow : Don't wash affected areas of skin more than twice a day. Frequent washing can irritate the skin and make symptoms worse, Wash the affected area with a mild soap or cleanser and lukewarm water. Very hot or cold water can make acne worse, Don't try to clean out blackheads or squeeze spots. This can make them worse and cause permanent scarring, Avoid using too much make-up and cosmetics. Use water-based products that are described as non-comedogenic (this means the product is less likely to block the pores in your skin), Completely remove make-up before going to bed, If dry skin is a problem, use a fragrance-free, water-based emollient, Regular exercise can't improve your acne, but it can boost your mood and improve your self-esteem. Shower as soon as possible once you finish exercising, as sweat can irritate your acne, Wash your hair regularly and try to avoid letting your hair fall across your face
+You : i got runny nose
+MedBot : Medicines you can consume : Topical Retinoids, Topical Antibiotics, Azelaic Acid, Antibiotic Tablets, in women, the combined oral contraceptive pill, isotretinoin tablets 
+ Preventions that you must follow : Don't wash affected areas of skin more than twice a day. Frequent washing can irritate the skin and make symptoms worse, Wash the affected area with a mild soap or cleanser and lukewarm water. Very hot or cold water can make acne worse, Don't try to clean out blackheads or squeeze spots. This can make them worse and cause permanent scarring, Avoid using too much make-up and cosmetics. Use water-based products that are described as non-comedogenic (this means the product is less likely to block the pores in your skin), Completely remove make-up before going to bed, If dry skin is a problem, use a fragrance-free, water-based emollient, Regular exercise can't improve your acne, but it can boost your mood and improve your self-esteem. Shower as soon as possible once you finish exercising, as sweat can irritate your acne, Wash your hair regularly and try to avoid letting your hair fall across your face
+You : runny nose
+MedBot : It seems that you are suffering from common cold
+You : i got common cold
+MedBot : medicines you can consume : Dextromethorphan,Decongestant,Diphenhydramine,Crocin Cold & Flu Max, preventions that you must follow :Wash your hands,Avoid touching your face,Clean frequently used surfaces,Use hand sanitizers,SUGGESTED FOODS ARE:Garlic,Vitamin C-containing fruits,Leafy greens,Broccoli,Oatmeal,Spices,Chicken Soup
+You : awesome
+MedBot : Glad you are gonna be healthy
+You : how old are you?
+MedBot : as long as our chat
+You : i got fever
+MedBot : medicines you can consume : acetaminophen ,ibuprofen,aspirin,Crocin Cold & Flu Max, prevention that you must follow :Wash your hands,Cover your mouth when you cough and your nose when you sneeze,Clean frequently used surfaces,Avoid sharing cups, glasses, and eating utensils with other people.,SUGGESTED FOODS ARE:Garlic,Vitamin C-containing fruits,Leafy greens,Broccoli,Oatmeal,Spices,Chicken Soup
+You : consultation
+MedBot : You can contact various doctors here for any kind of consultation: 1. https://www.1mg.com/online-doctor-consultation, 2. https://www.tatahealth.com/online-doctor-consultation/general-physician, 3. https://www.doconline.com/, or you can pay a visit to your local area doctor or family doctor.
+You : bye
+MedBot : goodbye
+
+chat ended on: July 11, 2021 at 12:49 AM with User
